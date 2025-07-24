@@ -65,7 +65,7 @@ if (isset($_POST['password_reset_link'])) {
             exit(0);
         }
     } else {
-        $_SESSION['status'] = "No account found with that email.";
+        $_SESSION['status'] = "No account found with that email. Please go to register page";
         header("Location: password-reset.php");
         exit(0);
     }
