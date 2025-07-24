@@ -1,0 +1,15 @@
+/vendor/
+/node_modules/
+.env
+*.log
+*.sql
+*zip
+.DS_Store
+*.bak
+*.tmp
+
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
